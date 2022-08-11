@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.rivvana.digitalent_sqlite2.R;
 import com.rivvana.digitalent_sqlite2.model.Data;
 
 import java.util.List;
@@ -35,11 +36,6 @@ public class Adapter extends BaseAdapter {
     @Override
     public long getItemId(int position) {
         return position;
-    }
-
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        return null;
     }
 
     @Override
